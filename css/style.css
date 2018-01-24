@@ -65,6 +65,7 @@ header {
 .intro {
     background: #f5f6fc;
     padding-bottom: 80px;
+    position: relative;
 }
 
 .intro h1 {
@@ -106,9 +107,12 @@ header {
 }
 
 .intro .side {
-    width: 460px;
-    float: left;
-    margin: 0 0 10px 10px;;
+    display: block;
+    margin: 0 0 10px 10px;
+    position: absolute;
+    float: right;
+    max-width: 100%;
+    padding-left: 470px;
 }
 
 .intro .side p {
@@ -143,6 +147,11 @@ header {
 
 .intro .side a {
     margin-left: 150px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    
+
 }
 
 .members {
@@ -187,7 +196,7 @@ header {
 }
 
 .country img {
-    width: 300px;
+    max-width: 300px;
     float: left;
 }
 
@@ -201,7 +210,7 @@ header {
     position: absolute;
     float: right;
     max-width: 100%;
-    padding-left: 300px
+    padding-left: 300px;
 }
 
 .text-side p {
@@ -215,6 +224,23 @@ header {
 
 .country .btn p {
     float: none;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    .country .btn a {
+        display: block;
+        margin: 0px 10px;
+    }
+
+    .country .text-side p {
+        font-size: 0.875em;
+        margin: 5px;
+    }
+
+    .country .btn a + p {
+        font-size: 0.75em;
+    }
+
 }
 
 .infos {
