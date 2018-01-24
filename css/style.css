@@ -12,7 +12,7 @@ body, h1, h2, h3, p, ul {
 p {
     color: #5b584f;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.125em;
+    font-size: 1em;
     line-height: 24px;
 }
 
@@ -26,8 +26,13 @@ header {
     height: 80px;
 }
 
+.menu a {
+    display: inline-block;
+}
+
 .menu a img {
     margin-top: 15px;
+    margin-left: 10px;
 }
 
 .menu nav {
@@ -43,11 +48,11 @@ header {
     text-decoration: none;
     color: #a8a0a8;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 0.875em;
+    font-size: 1em;
     font-weight: bold;
     text-transform: uppercase;
     text-align: right;
-    padding-left: 50px;
+    margin: 0 10px;
 }
 
 .slide {
@@ -73,12 +78,12 @@ header {
 }
 
 .intro div p {
-    margin-top: 20px;
+    margin: 20px 10px 0 10px;
 }
 
 .intro .img {
     width: 460px;
-    margin-top: 20px;
+    margin: 20px 10px 0 10px;
     float: left;
 }
 
@@ -103,11 +108,45 @@ header {
 .intro .side {
     width: 460px;
     float: left;
-    margin-left: 20px;
+    margin: 0 0 10px 10px;;
 }
 
 .intro .side p {
     margin-top: 16px;
+    margin-bottom: 75px;
+}
+
+.btn a {
+    border: 3px solid #d6bfc0;
+    font-size: 1.125em;
+    font-weight: bold;
+    letter-spacing: 3px;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    color: #d6bfc0;
+    padding: 10px 17px 10px 23px;
+}
+
+.btn p {
+    margin-top: 5px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 0.75em;
+    line-height: 15px;
+}
+
+.intro .side .btn p {
+    margin: 15px;
+}
+
+.intro .side a {
+    margin-left: 150px;
+}
+
+.members {
+    margin-bottom: 60px;
 }
 
 .members h2{
@@ -143,13 +182,8 @@ header {
     border-left: 3px solid #a8a0a8;
     border-right: 3px solid #a8a0a8;
     border-bottom: 35px solid #a8a0a8;
-    margin-bottom: 40px;
-}
-
-.country p {
-    float: right;
-    max-width: 620px;
-    margin: 0px;
+    margin: 0 10px 40px 10px;
+    position: relative;
 }
 
 .country img {
@@ -161,6 +195,98 @@ header {
     content: '';
     display: table;
     clear: both;
+}
+
+.country .text-side {
+    position: absolute;
+    float: right;
+    max-width: 100%;
+    padding-left: 300px
+}
+
+.text-side p {
+    margin: 10px;
+}
+
+.country .btn a {
+    display: block;
+    margin: 0 210px;
+}
+
+.country .btn p {
+    float: none;
+}
+
+.infos {
+    background: #f5f6fc;
+}
+
+.infos h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.25em;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    color: #d6bfc0;
+    text-align: center;
+    margin-top: 40px;
+}
+.infos h2::after {
+    content: '';
+    display: block;
+    width: 80px;
+    height: 3px;
+    background: #d6bfc0;
+    margin: 5px auto;
+    margin-bottom: 40px;
+}
+
+.infos ul li {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.25em;
+    font-weight: bold;
+    letter-spacing: 10px;
+    color: #5b584f;
+    list-style-type: none;
+}
+
+.infos ul {
+    width: 460px;
+    float: left;
+    margin: 0 10px;
+}
+
+.infos img {
+    width: 460px;
+    margin: 0 10px;
+    float: left;
+}
+
+.infos::after, .infos::before {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.footer {
+    height: 80px;
+    background: #e5e8ef;
+}
+
+.footer p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 0.75em;
+    line-height: 20px;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.footer p a:link {
+    text-decoration: none;
+}
+
+.footer p a:visited {
+    text-decoration: none;
+    color: #5b584f;
 }
 
 
