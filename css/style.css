@@ -127,7 +127,6 @@ header {
 }
 
 .intro .img {
-    width: 460px;
     margin: 20px 10px 0 10px;
     float: left;
 }
@@ -200,10 +199,6 @@ header {
 @media only screen and (max-width: 767px) {
     .container {
         width: 300px;
-    }
-
-    .menu a img {
-        width: 124px;
     }
 
     .intro h1 {
