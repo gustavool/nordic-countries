@@ -127,7 +127,7 @@ header {
 }
 
 .intro .img {
-    width: 460px;
+    max-width: 100%;
     margin: 20px 10px 0 10px;
     float: left;
 }
@@ -215,6 +215,10 @@ header {
     .intro .img p, img {
         width: 280px;
         margin: 0;
+    }
+
+    .intro .img p {
+        padding: 0;
     }
 
     .intro .side {
