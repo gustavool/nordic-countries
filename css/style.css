@@ -109,7 +109,6 @@ header {
 
 .intro {
     background: #f5f6fc;
-    padding-bottom: 80px;
     position: relative;
 }
 
@@ -154,7 +153,7 @@ header {
 
 .intro .side {
     display: block;
-    margin: 0 0 10px 10px;
+    margin: 0 0 40px 10px;
     position: absolute;
     float: right;
     max-width: 100%;
@@ -166,6 +165,7 @@ header {
     margin-top: 16px;
     margin-bottom: 75px;
 }
+
 
 .btn a {
     border: 3px solid #d6bfc0;
@@ -375,13 +375,15 @@ header {
     .country .btn a {
         display: block;
         margin: -3px;
-        padding-bottom: 25px;
-        margin-bottom: -40px;
         border: 3px solid #a8a0a8;
         background: #a8a0a8;
     }
     .country .btn p {
-        color: #fff;
+        display: block;
+        padding: 3px;
+        margin: -3px;
+        border: 3px solid #a8a0a8;
+        background: white;
     }
     
 }
@@ -456,10 +458,43 @@ header {
     clear: both;
 }
 
+/*SMARTPHONES*/
+@media only screen and (max-width: 767px) {
+    .infos h2 {
+        font-size: 1.875em;
+        letter-spacing: 3px;
+    }
+
+    .infos img {
+        display: none;
+    }
+
+    .infos ul {
+        max-width: 300px;
+        float: none;
+        margin-bottom: 20px;
+    }
+
+    .infos ul li {
+        font-size: 1.5;
+        letter-spacing: normal;
+    }
+
+    .infos .btn a {
+        max-width: 300px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .infos .btn p {
+        padding-bottom: 80px;
+    }
+
+}
+
 /*TABLETS*/
 @media only screen and (min-width: 768px) and (max-width: 959px) {
     .infos ul {
-        font-size: 18px;
         margin: 0 auto;
         float: none;
         padding-bottom: 20px;
@@ -502,8 +537,4 @@ header {
     text-decoration: none;
     color: #5b584f;
 }
-
-
-
-
 
