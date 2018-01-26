@@ -88,7 +88,7 @@ header {
 
     .menu nav li {
         width: 100%;
-        padding: 0px 0 10px 0;
+        padding: 0 0 10px 0;
     }
 
     .menu nav li a {
@@ -211,9 +211,32 @@ header {
     }
 
     .intro .img p, img {
-        width: 300px;
+        width: 280px;
         margin: 0;
     }
+
+    .intro .side {
+        max-width: 300px;
+        padding: 0;
+        display: inline-block;
+        position: static;
+    }
+
+    .intro .side p {
+        margin: 10px;
+    }
+
+    .intro .side .btn a {
+        display: block;
+        width: 280px;
+        margin: 0  10px;
+    }
+
+    .intro .side .btn p {
+        margin: 5px 10px 10px 10px;
+    }
+
+
 
 }
 
@@ -328,10 +351,33 @@ header {
 /*SMARTPHONES*/
 @media only screen and (max-width: 767px) {
     .members h2 {
+        font-size: 1.875em;
+        letter-spacing: 3px;
+    }
+    
+    .members h3 {
         font-size: 1.5em;
-        letter-spacing: 5px;
+        width: 280px;
+        border-bottom: 280px;
     }
 
+    .country .img {
+        
+    }
+
+    .country .img img {
+        display: block;
+        max-width: 100%;
+        width: 280px;
+        float: none;
+    }
+
+    .intro .text-side {
+        padding: 0px;
+        margin: 0 auto;
+        float: none;
+    }
+    
 
 }
 
