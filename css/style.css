@@ -177,6 +177,7 @@ header {
     text-align: center;
     color: #d6bfc0;
     padding: 10px 17px 10px 23px;
+    
 }
 
 .btn p {
@@ -199,6 +200,10 @@ header {
 @media only screen and (max-width: 767px) {
     .container {
         width: 300px;
+    }
+
+    .menu a img {
+        width: 124px;
     }
 
     .intro h1 {
@@ -532,4 +537,3 @@ header {
     text-decoration: none;
     color: #5b584f;
 }
-
