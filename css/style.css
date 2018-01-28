@@ -57,6 +57,12 @@ header {
     margin: 0 10px;
 }
 
+.menu nav li:hover {
+    background: #d6bfc0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 .slide {
     height: 500px;
     width: 100%;
@@ -167,7 +173,6 @@ header {
     margin-bottom: 75px;
 }
 
-
 .btn a {
     border: 3px solid #d6bfc0;
     font-size: 1.125em;
@@ -189,9 +194,13 @@ header {
     line-height: 15px;
 }
 
-
 .intro .side .btn p {
     margin: 20px 15px 15px 15px;
+}
+
+.btn a:hover {
+    border: 3px solid #5b584f;
+    color: #5b584f;
 }
 
 .intro .side a {
@@ -277,7 +286,6 @@ header {
     }
 
 }
-
 
 /*MEMBERS*/
 .members {
@@ -386,6 +394,10 @@ header {
         background: #a8a0a8;
     }
 
+    .country .btn a:hover {
+        background: white;
+    }
+    
     .country .btn p {
         display: block;
         padding: 3px;
