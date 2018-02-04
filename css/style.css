@@ -44,12 +44,14 @@ header {
 
 .menu nav {
     float: right;
-    margin-right: 10px;
 }
 
 .menu nav li {
     display: inline-block;
     transition: background-color 0.5s ease;
+    position: relative;
+    text-align: center;
+    width: 150px;
 }
 
 .menu nav li a {
@@ -60,20 +62,47 @@ header {
     font-weight: bold;
     text-transform: uppercase;
     text-align: right;
-    margin: 31px 10px 31px 10px;
-    
+    padding: 31px 10px 31px 10px;
 }
 
 .menu nav li:hover {
     background-color: #d6bfc0;
 }
 
+.menu nav li ul {
+    float: left;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 35px;
+    visibility: hidden;
+    z-index: 1;
+    transition: all .5s ease;
+}
+
+.menu nav li:hover ul {
+    opacity: 1;
+    top: 80px;
+    visibility: visible;
+}
+
+.menu nav li ul li {
+    float: none;
+    width: 100%;
+    background: #e5e8ef;
+}
 
 .slide {
     height: 500px;
     width: 100%;
     background: url(../img/index/finland-slide.jpg) no-repeat center;
     background-size: cover;
+}
+
+.menu:after, .menu:before {
+    content:'';
+    display: table;
+    clear: both;
 }
 
 
@@ -112,7 +141,6 @@ header {
     }
 
     .menu nav li a {
-        
         border: 3px solid #a8a0a8;
         font-weight: bold;
         letter-spacing: 3px;
@@ -122,8 +150,62 @@ header {
         text-align: center;
         color: #a8a0a8;
         margin: 0;
+        padding: 0;
     }
  
+    .menu nav li:hover ul {
+        top: 40px;
+    }
+
+    .menu nav .dropdown:after {
+        content: ' \25b6';
+    }
+    .menu nav .dropdown:hover:after{
+        content:' \25bc';
+    }
+    
+    .menu nav li ul {
+        width: 300px;
+    }
+
+    .menu nav li ul li a {
+        text-indent: 85px;
+        margin-left: 40px;
+    }
+
+    .menu nav li ul li:hover {
+        background: #d6bfc0;
+    }
+
+    .menu nav #norway {
+        width: 80px;
+        background: url(../img/index/norway-flag.jpg) no-repeat center;
+        background-size: cover;
+    }
+
+    .menu nav #sweden {
+        width: 80px;
+        background: url(../img/index/sweden-flag.jpg) no-repeat center;
+        background-size: cover;
+    }
+
+    .menu nav #denmark {
+        width: 80px;
+        background: url(../img/index/denmark-flag.jpg) no-repeat center;
+        background-size: cover;
+    }
+
+    .menu nav #finland {
+        width: 80px;
+        background: url(../img/index/finland-flag.jpg) no-repeat center;
+        background-size: cover;
+    }
+
+    .menu nav #iceland {
+        width: 80px;
+        background: url(../img/index/iceland-flag.jpg) no-repeat center;
+        background-size: cover;
+    }
 }
 
 /*INTRODUCTION*/
