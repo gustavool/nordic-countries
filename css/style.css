@@ -158,7 +158,7 @@ header {
     }
 
     .menu nav .dropdown:after {
-        content: ' \25b6';
+        content: ' ▶';
     }
     .menu nav .dropdown:hover:after{
         content:' \25bc';
