@@ -61,6 +61,10 @@ body, h1, h2, h3, p, ul {
     padding: 0px;
 }
 
+h1, h2, h3 {
+    font-weight: bold;
+}
+
 p {
     color: #5b584f;
     font-family: Arial, Helvetica, sans-serif;
@@ -657,8 +661,8 @@ header {
         max-width: 300px;
         float: none;
         margin-bottom: 20px;
+        margin-left: 0;
     }
-
     .infos ul li {
         font-size: 1.5;
         letter-spacing: normal;
