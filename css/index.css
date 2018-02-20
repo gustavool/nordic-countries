@@ -378,7 +378,7 @@
     display: inline-block;
     margin: 0 auto;
     float: none;
-    padding-bottom: 80px;
+    padding-bottom: 40px;
 }
 
 /*SMARTPHONES*/
@@ -415,7 +415,6 @@
         max-width: 300px;
         display: block;
         margin-top: 10px;
-        padding-bottom: 80px;
     }
 
 }
@@ -440,7 +439,6 @@
     .infos .btn p {
         display: block;
         margin-top: 10px;
-        padding-bottom: 80px;
     }
 
 }
