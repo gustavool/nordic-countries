@@ -1,0 +1,42 @@
+.intro-bg {
+    background: url(../img/curiosities/Trolltunga.jpg) no-repeat center;
+    height: 250px;
+    width: 100%;
+    background-size: cover;
+    margin-bottom: 40px;
+}
+
+.intro-bg h1 {
+    text-align: left;
+    padding-top: 95px;
+    padding-bottom: 95px;
+    opacity: 0.85;
+}
+
+.curiosity img {
+    border: 3px solid #a8a0a8;
+    max-width: 100%;
+    margin: 0 10px;
+}
+
+.curiosity {
+    margin-bottom: 40px;
+}
+
+.curiosity h2 {
+    margin: 20px 10px;
+}
+
+.curiosity p {
+    margin: 0 10px;
+    margin-bottom: 10px;
+}
+
+/* tentar alinhar com a DIV
+.curiosity img  ~ p {
+    text-align: center;
+}
+*/
+
+
+
