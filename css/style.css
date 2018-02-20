@@ -724,11 +724,14 @@ header {
     padding: 15px 0;
 }
 
+.footer p a {
+    color: #5b584f;
+}
+
 .footer p a:link {
     text-decoration: none;
 }
 
 .footer p a:visited {
-    text-decoration: none;
-    color: #5b584f;
+    text-decoration: none
 }
