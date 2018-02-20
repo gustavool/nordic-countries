@@ -415,6 +415,7 @@
         max-width: 300px;
         display: block;
         margin-top: 10px;
+
     }
 
 }
@@ -439,6 +440,7 @@
     .infos .btn p {
         display: block;
         margin-top: 10px;
+        padding-bottom: 80px;
     }
 
 }
