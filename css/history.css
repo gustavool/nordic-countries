@@ -3,7 +3,7 @@ body {
 }
 
 .intro-bg {
-    background: url(../img/curiosities/Trolltunga.jpg) no-repeat center;
+    background: url(../img/history/Skógafoss-ice.jpg) no-repeat center;
     height: 250px;
     width: 100%;
     background-size: cover;
@@ -18,20 +18,20 @@ body {
     opacity: 0.85;
 }
 
-.curiosity img {
+section img {
     border: 3px solid #a8a0a8;
     max-width: 100%;
 }
 
-.curiosity {
+section {
     margin-bottom: 40px;
 }
 
-.curiosity h2 {
+section h2 {
     margin: 20px 10px;
 }
 
-.curiosity p {
+section p {
     margin: 0 10px;
     margin-bottom: 10px;
 }
@@ -55,12 +55,6 @@ figure figcaption {
     line-height: 24px;
 }
 
-.figure-left {
-    margin-top: 20px;
-    max-width: 460px;
-    float: left;
-}
-
 .text-left {
     max-width: 460px;
     float: left;
@@ -72,27 +66,18 @@ figure figcaption {
     float: right;
 }
 
-.text-right {
-    max-width: 460px;
-    float: right;
-}
-
-.division::after, .division::before {
-    content: '';
-    display: table;
-    clear: both;
+.figure-rectangle {
+    max-width: 380px;
 }
 
 .text-rectangle {
     max-width: 540px;
 }
 
-.figure-rectangle {
-    max-width: 380px;
-}
-
-.curiosity .division:last-of-type {
-   padding-bottom: 10px;
+container::after, .container::before {
+    content: '';
+    display: table;
+    clear: both;
 }
 
 footer {
@@ -103,12 +88,22 @@ footer {
     display: none;
 }
 
-#img-4 {
-    display: none;
+/*TABLETS*/
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+    .text-left, .text-right, .text-rectangle {
+        max-width: none;
+        float: none;
+    }
+
+    .figure-left, .figure-right, .figure-rectangle {
+        float: none;
+        margin: 0 auto;
+    }
 }
 
 /*SMARTPHONES*/
-@media only screen and (max-width: 767px){
+@media only screen and (max-width: 767px) {
     .menu, .container {
         width: 300px;
     }
@@ -130,28 +125,5 @@ footer {
 
     #img-2 {
         display: block;
-    }
-
-    #img-3 {
-        display: none;
-    }
-
-    #img-4 {
-        display: block;
-    }
-
-}
-
-/*TABLETS*/
-@media only screen and (min-width: 768px) and (max-width: 959px) {
-
-    .text-left, .text-right, .text-rectangle {
-        max-width: none;
-        float: none;
-    }
-
-    .figure-left, .figure-right, .figure-rectangle {
-        float: none;
-        margin: 0 auto;
     }
 }
