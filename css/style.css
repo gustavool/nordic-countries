@@ -102,6 +102,14 @@ ul {
     margin: 0 auto;
 }
 
+.active {
+    background: #d6bfc0;
+}
+
+#back {
+    background: #d6bfc0;
+}
+
 /*HEADER*/
 
 header {
@@ -128,7 +136,7 @@ header {
     transition: background-color 0.5s ease;
     position: relative;
     text-align: center;
-    width: 150px;
+    width: 155px;
 }
 
 .menu nav li a {
