@@ -2,8 +2,48 @@ body {
     background-color: #f5f6fc;
 }
 
-.intro-bg {
+.intro-bg h1 {
+        padding-left: 10px;
+        text-align: left;
+        padding-top: 95px;
+        padding-bottom: 95px;
+        opacity: 0.85;
+}
+
+#denmark-bg {
+    background: url(../img/denmark/denmark-bg.jpg) no-repeat center;
+    height: 250px;
+    width: 100%;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+
+#norway-bg {
     background: url(../img/norway/norway-bg.jpg) no-repeat center;
+    height: 250px;
+    width: 100%;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+
+#sweden-bg {
+    background: url(../img/sweden/sweden-bg.jpg) no-repeat center;
+    height: 250px;
+    width: 100%;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+
+#finland-bg {
+    background: url(../img/finland/finland-bg.jpg) no-repeat center;
+    height: 250px;
+    width: 100%;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+
+#iceland-bg {
+    background: url(../img/iceland/iceland-bg.jpg) no-repeat center;
     height: 250px;
     width: 100%;
     background-size: cover;
