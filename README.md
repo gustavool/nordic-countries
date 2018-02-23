@@ -5,15 +5,15 @@ Página responsiva criada com CSS puro e Jquery(nav bar).
 Ojetivo do desenvolvimento desse site foi praticar html e css sem framework
 
 ## Textos:
-- (https://pt.wikipedia.org/wiki/Escandinávia)
-- (https://www.guiaviajarmelhor.com.br/escandinavia-conheca-os-paises-nordicos/) -
-- (https://misteriosdomundo.org/6-curiosidades-interessantes-sobre-franca/) - curiosidades
-- (http://nodeoito.com/metodos-surpreendentes-paises-nordicos/) - curiosidades
+- https://pt.wikipedia.org/wiki/Escandinávia
+- https://www.guiaviajarmelhor.com.br/escandinavia-conheca-os-paises-nordicos/ -
+- https://misteriosdomundo.org/6-curiosidades-interessantes-sobre-franca/ - curiosidades
+- http://nodeoito.com/metodos-surpreendentes-paises-nordicos/ - curiosidades
 
 ## imgs:
-(https://unsplash.com)
-(http://flaglane.com) – flags
-(https://pt.pngtree.com) – PNG
+- https://unsplash.com
+- http://flaglane.com – flags
+- https://pt.pngtree.com – PNG
 
 ## Cores:
 - ![#5B584F](https://placehold.it/15/5B584F/000000?text=+) `#5B584F`
