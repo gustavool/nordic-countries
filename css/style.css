@@ -190,17 +190,8 @@ header {
     clear: both;
 }
 
-label {
-    cursor: pointer;
-  }
   #menu-toggle {
     display: none;
-  }
-  #menu {
-    display: none;
-  }
-  #menu-toggle:checked + #menu {
-    display: block;
   }
 
 /*SMARTPHONES*/
@@ -304,6 +295,20 @@ label {
     .active a {
         background: #d6bfc0;
     }
+
+    label {
+        cursor: pointer;
+      }
+      #menu-toggle {
+        display: none;
+      }
+      #menu {
+        display: none;
+      }
+      #menu-toggle:checked + #menu {
+        display: block;
+      }
+    
 }
 
 /*FOOTER*/
