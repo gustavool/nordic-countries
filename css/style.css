@@ -112,6 +112,7 @@ ul {
 
 /*HEADER*/
 
+
 header {
     background: #e5e8ef;
     height: 80px;
@@ -154,6 +155,7 @@ header {
     background-color: #d6bfc0;
 }
 
+
 .menu nav li ul {
     float: left;
     left: 0;
@@ -170,6 +172,8 @@ header {
     top: 80px;
     visibility: visible;
 }
+
+
 
 .menu nav li ul li {
     float: none;
@@ -245,6 +249,10 @@ header {
         padding-top: 10px;
     }
 
+    .hide-menu { /*esconder menu mobile*/
+        display: none;
+    }
+
     .menu nav li ul li a {
         text-indent: 85px;
         margin-left: 40px;
@@ -291,6 +299,13 @@ header {
     .active a {
         background: #d6bfc0;
     }    
+
+    .menu-hidden {
+        display: none;
+        background-color: black;
+        visibility: hidden;
+        opacity: 0;
+    }
 }
 
 /*FOOTER*/
