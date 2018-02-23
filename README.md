@@ -1,4 +1,4 @@
-# nordic-countries
+# Nordic Countries
 
 Página responsiva criada com CSS puro e Jquery(nav bar).
 
