@@ -173,8 +173,6 @@ header {
     visibility: visible;
 }
 
-
-
 .menu nav li ul li {
     float: none;
     width: 100%;
@@ -249,8 +247,14 @@ header {
         padding-top: 10px;
     }
 
+    
+
     .hide-menu { /*esconder menu mobile*/
         display: none;
+    }
+
+    .show-menu {
+        display: block;
     }
 
     .menu nav li ul li a {
@@ -298,13 +302,6 @@ header {
 
     .active a {
         background: #d6bfc0;
-    }    
-
-    .menu-hidden {
-        display: none;
-        background-color: black;
-        visibility: hidden;
-        opacity: 0;
     }
 }
 
