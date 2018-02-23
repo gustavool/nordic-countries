@@ -284,6 +284,14 @@ header {
         background: url(../img/index/iceland-flag.jpg) no-repeat center;
         background-size: cover;
     }
+
+    .active {
+        background: transparent;
+    }
+
+    .active a {
+        background: #d6bfc0;
+    }
 }
 
 /*FOOTER*/
